@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/movie/:id" element={<Detail />}></Route>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/React-movie" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
   );
